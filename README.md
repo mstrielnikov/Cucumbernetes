@@ -2,10 +2,16 @@
 
 Test kubernetes cluster for building quick PoC's and experiments
 
+GitOps:
 * ArgoCD
-* Istio (or Linkerd) + Kiali
+Service Mesh:
+* Istio (or Linkerd)
+Security:
 * SOPS
 * Vault
+Observability:
+* Kiali
 * Grafana
+* Jaegar
 * VictoriaMetrics
 * Loki
