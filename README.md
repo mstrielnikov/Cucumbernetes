@@ -14,7 +14,7 @@ Security:
 
 Observability:
 * Kiali
-* Grafana
 * Jaegar
+* Grafana
 * VictoriaMetrics
 * Loki
