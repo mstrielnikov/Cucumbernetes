@@ -18,3 +18,4 @@ Observability:
 * Grafana
 * VictoriaMetrics
 * Loki
+* Resource Reporter
