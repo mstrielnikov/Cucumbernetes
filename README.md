@@ -4,6 +4,7 @@ Test kubernetes cluster for building quick PoC's and experiments
 
 GitOps:
 * ArgoCD
+* Kustomize
 
 Service Mesh:
 * Istio (or Linkerd)
