@@ -15,6 +15,7 @@ Service Mesh:
 Security:
 * SOPS
 * Vault
+* Keycloak
 
 Observability:
 * Kiali
