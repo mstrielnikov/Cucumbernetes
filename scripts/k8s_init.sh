@@ -60,6 +60,10 @@ linkerd viz install | kubectl apply -f -
 
 linkerd viz check
 
+linkerd jaeger install | kubectl apply -f -
+
+linkerd jaeger check
+
 # Install Vault 
 
 VAUL_REPO_HELM="https://helm.releases.hashicorp.com"
