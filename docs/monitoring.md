@@ -10,5 +10,4 @@ Actual version of Victoria Metrics Stack version is 1.76.1
 
 ## Check up
 
-* Check up Linkerd dashboard: `linkerd viz dashboard `  
-* Check up Linkerd-Jaegar dashboard: `linkerd jaeger dashboard`docs/linkerd.mdLinkerd
+* Check up Grafana and Prometheus dashboards
