@@ -16,3 +16,8 @@ Security:
 
 Cost monitoring
 * Resource Reporter
+
+Monitoring:
+* Grafana
+* VictoriaMetrics
+* Loki

@@ -119,7 +119,7 @@ helm repo update
 
 GRAFANA_HELM_REPO="https://grafana.github.io/helm-charts"
 
-helm repo add grafana 
+helm repo add grafana "${GRAFANA_HELM_REPO}"
 
 helm repo update
 
