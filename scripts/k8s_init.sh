@@ -36,7 +36,7 @@ kubectl apply -n argocd -f "${ARGOCD_URL}"
 
 # Install Linkerd with extensions
 
-LINKERD_URL="https://run.linkerd.io/install"check in pipe if non zero
+LINKERD_URL="https://run.linkerd.io/install"
 
 curl --proto '=https' --tlsv1.2 -sSfL "${LINKERD_URL}" | sh
 
