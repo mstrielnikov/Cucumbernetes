@@ -12,4 +12,4 @@ Actual version of Linkerd is 2.11
 ## Check up
 
 * Check up Linkerd dashboard: `linkerd viz dashboard `  
-* Check up Linkerd-Jaegar dashboard: `linkerd jaeger dashboard`
+* Check up Linkerd-Jaegar dashboard: `linkerd jaeger dashboard`docs/linkerd.md
