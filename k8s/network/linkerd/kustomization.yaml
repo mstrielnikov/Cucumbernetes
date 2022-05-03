@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: linkerd
+resources:
+# - priority-class.yaml
+- linkerd.yaml
+- linkerd-ingress-dashboard.yaml
+# patchesStrategicMerge:
+# - patch-priority-class.yaml
