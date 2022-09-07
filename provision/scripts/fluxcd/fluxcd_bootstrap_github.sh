@@ -4,7 +4,7 @@ set -ex
 
 GITHUB_USER="mstrielnikov"
 GITHUB_REPO="cucumbernetes"
-GITHUB_BRANCH="master"
+GITHUB_BRANCH="main"
 CLUSTER_PATH="./cluster"
 
 flux bootstrap github \

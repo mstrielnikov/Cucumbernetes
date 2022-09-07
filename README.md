@@ -3,13 +3,11 @@
 Initial kubernetes cluster for building quick PoC's and experiments.
 My personal playground filled with frequently used set ups' and favourite k8s [tech stack](./docs.md).
 
-# Cluster
-
-# Local development with Kind
+# Local cluster development with Kind
 
 Run the following script to bootstrap default local cluster with [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/):
 ```bash
-bash ./provision/scripts/local/kind/bootstrap_kind.sh
+bash ./provision/scripts/local_env/bootstrap_kind.sh
 ```
 
 Run the following command to delete the Kind cluster:
@@ -24,7 +22,7 @@ Scripts to bootstrap cluster with GitOps:
 * with github:
 
 ```bash
-bash ./scripts/fluxcd/fluxcd_bootstrap_github.sh
+bash ./provision/scripts/fluxcd/fluxcd_bootstrap_github.sh
 ```
 
 * with gitlab:
@@ -32,7 +30,7 @@ bash ./scripts/fluxcd/fluxcd_bootstrap_github.sh
 ```bash
 export GITLAB_TOKEN=${gitlab_token}
 
-bash ./scripts/fluxcd/fluxcd_bootstrap_gitlab.sh
+bash ./provision/scripts/fluxcd/fluxcd_bootstrap_gitlab.sh
 ```
 
 
