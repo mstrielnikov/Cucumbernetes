@@ -20,48 +20,6 @@ metadata:
   name: kubernetes-dashboard
   namespace: kube-system
 ---
-kind: Service
-apiVersion: v1
-metadata:
-  labels:
-    k8s-app: kubernetes-dashboard
-  name: kubernetes-dashboard
-  namespace: kube-system
-spec:
-  ports:
-    - port: 8000
-      targetPort: 8000
-  selector:
-    k8s-app: kubernetes-dashboard
----
-apiVersion: v1
-kind: Secret
-metadata:
-  labels:
-    k8s-app: kubernetes-dashboard
-  name: kubernetes-dashboard-csrf
-  namespace: kube-system
-type: Opaque
-data:
-  csrf: ""
----
-apiVersion: v1
-kind: Secret
-metadata:
-  labels:
-    k8s-app: kubernetes-dashboard
-  name: kubernetes-dashboard-key-holder
-  namespace: kube-system
-type: Opaque
----
-kind: ConfigMap
-apiVersion: v1
-metadata:
-  labels:
-    k8s-app: kubernetes-dashboard
-  name: kubernetes-dashboard-settings
-  namespace: kube-system
----
 kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
