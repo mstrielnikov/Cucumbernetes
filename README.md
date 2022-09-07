@@ -12,7 +12,7 @@ bash ./provision/scripts/local_env/bootstrap_kind.sh
 
 Run the following command to delete the Kind cluster:
 ```bash
-kind delete cluster --name $CLUSTER
+kind delete cluster --name cucumbernetes
 ```
 
 # Flux
