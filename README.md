@@ -17,6 +17,25 @@ Run the following command to delete the Kind cluster:
 kind delete cluster --name $CLUSTER
 ```
 
+# Flux
+
+Scripts to bootstrap cluster with GitOps: 
+
+* with github:
+
+```bash
+bash ./scripts/fluxcd/fluxcd_bootstrap_github.sh
+```
+
+* with gitlab:
+
+```bash
+export GITLAB_TOKEN=${gitlab_token}
+
+bash ./scripts/fluxcd/fluxcd_bootstrap_gitlab.sh
+```
+
+
 # Provision in clouds
 
 ## AWS
