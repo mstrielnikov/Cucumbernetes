@@ -5,7 +5,7 @@ metadata:
   labels:
     k8s-app: dashboard-metrics-scraper
   name: dashboard-metrics-scraper
-  namespace: kube-system
+  namespace: admin
 spec:
   replicas: 1
   revisionHistoryLimit: 10
@@ -58,7 +58,7 @@ metadata:
   labels:
     k8s-app: dashboard-metrics-scraper
   name: dashboard-metrics-scraper
-  namespace: kube-system
+  namespace: admin
 spec:
   ports:
     - port: 8000
