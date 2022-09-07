@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: linkerd-identity
+spec:
+  template:
+    spec:
+      priorityClassName: linkerd-critical
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: linkerd-controller
+spec:
+  template:
+    spec:
+      priorityClassName: linkerd-critical
