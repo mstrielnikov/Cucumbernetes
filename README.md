@@ -1,23 +1,31 @@
 # Cucumbernetes
 
-Initial kubernetes cluster for building quick PoC's and experiments
+Initial kubernetes cluster for building quick PoC's and experiments.
+My personal playground filled with frequently used set ups' and favourite k8s [tech stack](./TECHSTACK.md).
 
-Containers:
-* CRI-O (or docker)
+# Cluster
 
-GitOps:
-* ArgoCD
+# Local development with Kind
 
-Service Mesh:
-* Linkerd
+Run the following script to bootstrap default local cluster with [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/):
+```bash
+bash ./provision/scripts/local/kind/bootstrap_kind.sh
+```
 
-Security:
-* Vault
+Run the following command to delete the Kind cluster:
+```bash
+kind delete cluster --name $CLUSTER
+```
 
-Cost monitoring
-* Resource Reporter
+# Provision in clouds
 
-Monitoring:
-* Grafana
-* VictoriaMetrics
-* Loki
+## AWS
+
+## GCP
+
+## DO
+
+# References
+
+* [Kind: Quck start](https://kind.sigs.k8s.io/docs/user/quick-start/)
+* [Kubectl: install](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
