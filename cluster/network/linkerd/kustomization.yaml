@@ -2,8 +2,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: linkerd
 resources:
-# - priority-class.yaml
+- linkerd-ns.yaml
 - linkerd.yaml
-- linkerd-ingress-dashboard.yaml
+# - linkerd-jaegar.yaml
+# - linkerd-viz.yaml
+# - priority-class.yaml
 # patchesStrategicMerge:
 # - patch-priority-class.yaml
