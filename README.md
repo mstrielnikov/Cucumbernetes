@@ -1,7 +1,7 @@
 # Cucumbernetes
 
 Initial kubernetes cluster for building quick PoC's and experiments.
-My personal playground filled with frequently used set ups' and favourite k8s [tech stack](./TECHSTACK.md).
+My personal playground filled with frequently used set ups' and favourite k8s [tech stack](./docs.md).
 
 # Cluster
 
