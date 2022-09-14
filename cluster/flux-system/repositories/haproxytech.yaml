@@ -5,7 +5,5 @@ metadata:
   name: haproxytech
   namespace: flux-system
 spec:
-  interval: 30s
-  ref:
-    branch: master
   url: https://haproxytech.github.io/helm-charts
+  interval: 30s
