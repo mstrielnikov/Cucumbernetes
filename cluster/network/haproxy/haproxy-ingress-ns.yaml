@@ -2,6 +2,6 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: haproxy
+  name: haproxy-ingress
   labels:
-    name: haproxy
+    name: haproxy-ingress
