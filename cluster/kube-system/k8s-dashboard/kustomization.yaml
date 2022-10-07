@@ -5,3 +5,4 @@ resources:
 - k8s-dashboard-metrics-scraper.yaml
 - k8s-dashboard.yaml
 - k8s-dashboard-rbac.yaml
+- k8s-nginx-ingress.yaml
