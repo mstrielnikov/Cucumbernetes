@@ -9,7 +9,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$1
     nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
 spec:
-  tls: []
+  # tls: []
   rules:
     - host: "kubernetes-dashboard.cucumbernetes.loc"
       http:
@@ -20,4 +20,4 @@ spec:
             service:
               name: kubernetes-dashboard
               port:
-                number: 80
+                number: 8000
