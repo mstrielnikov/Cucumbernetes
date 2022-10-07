@@ -1,7 +1,0 @@
----
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: kube-ingress
-  labels:
-    name: kube-ingress
